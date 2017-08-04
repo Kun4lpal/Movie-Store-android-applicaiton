@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/n5"
+    android:layerType="software"
+    android:layout_height="200dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profileImage"
+        android:layout_height="100dp"
+        android:layout_width="100dp"
+        android:src="@drawable/profilepic"
+        android:layout_marginTop="26dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+    </de.hdodenhof.circleimageview.CircleImageView>
+
+    <TextView
+        android:text="Kunal Paliwal kupaliwa@syr.edu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:id="@+id/textView2"
+        android:textAllCaps="true"
+        android:layout_below="@+id/profileImage"
+        android:layout_alignLeft="@+id/profileImage"
+        android:layout_alignStart="@+id/profileImage"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp" />
+
+</RelativeLayout>

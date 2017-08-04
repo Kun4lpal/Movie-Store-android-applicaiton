@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolBarRecycler"
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:layout_alignParentTop="true"
+        android:elevation="5dp"
+        android:minHeight="?attr/actionBarSize"
+        android:background="@color/colorToolBar"
+        app:theme="@style/ToolBarStyle"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_marginLeft="10dp"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/mop3"/>
+            <TextView
+                android:id="@+id/toolbarText"
+                android:textIsSelectable="true"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:text="MovieTitle"
+                />
+        </LinearLayout>
+    </android.support.v7.widget.Toolbar>
+
+    <FrameLayout
+        android:layout_below="@+id/toolBarRecycler"
+        android:layout_width="match_parent"
+        android:id="@+id/recyclerView2"
+        android:background="@drawable/bg6"
+        android:layout_height="match_parent"
+        tools:context="com.example.kupal.testapp5.RecyclerView"
+        tools:ignore="MergeRootFrame"
+        >
+    </FrameLayout>
+</RelativeLayout>
+

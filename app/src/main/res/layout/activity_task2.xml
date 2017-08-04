@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_task2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   tools:context="com.example.kupal.testapp5.Task2">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolBarTask2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:elevation="5dp"
+        android:minHeight="?attr/actionBarSize"
+        android:background="@color/colorToolBar"
+        app:theme="@style/ToolBarStyle"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_marginLeft="10dp"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/mop3"/>
+            <TextView
+                android:id="@+id/task2text"
+                android:textIsSelectable="true"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:text="MovieTitle"
+                />
+        </LinearLayout>
+
+    </android.support.v7.widget.Toolbar>
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolBarR2"
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:elevation="5dp"
+        android:minHeight="?attr/actionBarSize"
+        android:background="@color/colorToolBar"
+        app:theme="@style/ToolBarStyle"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <ImageView
+            android:src="@drawable/mov1"
+            android:scaleType="fitStart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </android.support.v7.widget.Toolbar>
+
+    <FrameLayout
+        android:layout_below="@+id/toolBarTask2"
+        android:layout_width="match_parent"
+        android:id="@+id/recyclerV2"
+        android:background="@drawable/n6"
+        android:layout_height="match_parent"
+        tools:context="com.example.kupal.testapp5.RecyclerView"
+        tools:ignore="MergeRootFrame">
+    </FrameLayout>
+</RelativeLayout>
+

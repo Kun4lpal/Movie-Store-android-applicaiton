@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">A9</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="element_text">Element</string>
+
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="title_recyclerView">Recycler</string>
+    <string name="title_aboutMe">About Me</string>
+    <string name="title_task2">Task 2</string>
+    <string name="title_task3">Task 3</string>
+    <string name="title_movieDetail">Movie Details</string>
+    <string name="title_name"><u>Kunal Paliwal</u></string>
+    <string name="title_subject"><u>CSE691-Android Programming</u></string>
+</resources>
